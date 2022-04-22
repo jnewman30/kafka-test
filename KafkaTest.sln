@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProducer", "KafkaProducer\KafkaProducer.csproj", "{945A866C-A7B2-4415-9BEF-ABBEF6753DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaConsumer", "KafkaConsumer\KafkaConsumer.csproj", "{7C2903DE-2DAE-41DF-8850-CEC564A61156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageTypes", "MessageTypes\MessageTypes.csproj", "{D2A99FD4-849D-4944-9ADC-04E6C6F0A27C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{6E457297-D41A-4A57-9B7D-E5C82B4531F0}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		docker-compose.overried.yml = docker-compose.overried.yml
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{945A866C-A7B2-4415-9BEF-ABBEF6753DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945A866C-A7B2-4415-9BEF-ABBEF6753DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945A866C-A7B2-4415-9BEF-ABBEF6753DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945A866C-A7B2-4415-9BEF-ABBEF6753DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2903DE-2DAE-41DF-8850-CEC564A61156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2903DE-2DAE-41DF-8850-CEC564A61156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2903DE-2DAE-41DF-8850-CEC564A61156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2903DE-2DAE-41DF-8850-CEC564A61156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A99FD4-849D-4944-9ADC-04E6C6F0A27C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A99FD4-849D-4944-9ADC-04E6C6F0A27C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A99FD4-849D-4944-9ADC-04E6C6F0A27C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A99FD4-849D-4944-9ADC-04E6C6F0A27C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
